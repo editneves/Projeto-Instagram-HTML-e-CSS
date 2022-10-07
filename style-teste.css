@@ -1,0 +1,29 @@
+::-webkit-input-placeholder {
+    /* Edge */
+    color: red;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: red;
+}
+
+.menu-search{
+    margin-top: 13px;
+    margin-left: 214px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 215px;
+    height: 26px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 12px;
+    vertical-align: Center;
+    background: #FAFAFA;
+}
+.input {
+    border-style: none;
+}
