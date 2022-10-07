@@ -4,23 +4,25 @@
   margin-top: 34px;
   width: 1366px;
   height: 2000px;
-  background: blue;
+  /*background: blue;*/
   display: flex;
+  overflow: hidden;
 }
 
 .smaller-box-right {
   width: 537px;
   height: 2000px;
-  background: rgb(0, 255, 76);
+  /*background: rgb(0, 255, 76);*/
   display: flex;
 }
 
 .smaller-box-left {
   width: 829px;
   height: 2000px;
-  background: yellow;
+  /*background: yellow;*/
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 
@@ -31,10 +33,10 @@
   flex-wrap: wrap;
   background: #FFFFFF;
   border: 1px solid #DBDBDB;
-  position: fixed;
   top: 0px;
   left: 0px;
   box-sizing: border-box;
+  position: fixed;
 }
 
 .size-icons {
@@ -89,7 +91,7 @@
   margin-bottom: 18px;
   margin-left: 214px;
   width: 176px;
-  background: red;
+  /*background: red;*/
 }
 
 .menu-icons-img {
@@ -103,7 +105,7 @@
 .stories-box {
   margin-top: 34px;
   margin-left: 215px;
-  width: 100%;
+  width: 614px;
   height: 118px;
   background-color: #FFFFFF;
   border: 1px solid #DBDBDB;
@@ -113,50 +115,51 @@
   display: flex;
   position: relative;
 }
- .fig {
+
+.fig {
   margin-top: 5px;
   margin-left: 5px;
   width: 58px;
   height: 58px;
   border-radius: 28px;
 }
+
 .fig-seta {
-  
   margin-left: 5px;
   margin-top: 5px;
   width: 58px;
   height: 58px;
   border-radius: 28px;
 }
+
 .story-item-seta {
   margin-top: 18px;
   margin-left: 21px;
-  width: 100%;
+  width: 614px;
   height: 118px;
   background-image: url(./assests/stories_background.jpg);
   background-repeat: no-repeat;
   background-size: 68px 68px;
- 
 }
+
 .story-item {
   margin-top: 18px;
   margin-left: 6px;
   margin-right: 2px;
-  width: 100%;
+  width: 614px;
   height: 118px;
   background-image: url(./assests/stories_background.jpg);
   background-repeat: no-repeat;
   background-size: 68px 68px;
-  
 }
 
-.vector{
-  
+.vector {
   background-color: #000000;
   position: absolute;
   top: 46px;
   left: 579px;
 }
+
 .column-of-posts {
   margin-top: 24px;
   margin-left: 215px;
@@ -186,14 +189,14 @@
   width: 612px;
   height: 61px;
   left: 215px;
-  background: blue;
+  /*background: blue;*/
 
 }
 
 .column-img {
   width: 611px;
   height: 611px;
-  background: red;
+  /*background: red;*/
 }
 
 .column-icons {
@@ -202,14 +205,14 @@
   color: #000000;
 }
 
-.column-icons-right{
+.column-icons-right {
   left: 560px;
   font-size: 22px;
   color: #000000;
   position: absolute;
 }
 
-.suggestions{
+.suggestions {
   /*margin-top: 34px;
   margin-left: 29px;*/
   width: 388px;
@@ -221,12 +224,13 @@
 }
 
 
-.suggestions-user{
+.suggestions-user {
   margin-top: 0px;
   margin-left: 0px;
   width: 386px;
   height: 115px;
 }
+
 .suggestions-fig-user {
   margin-left: 20px;
   margin-top: 23px;
@@ -234,8 +238,9 @@
   height: 56px;
   border-radius: 28px;
 }
+
 .suggestions-fig {
-  margin-top:15px;
+  margin-top: 15px;
   margin-left: 17px;
   width: 32px;
   height: 32px;
@@ -243,4 +248,21 @@
   display: flex;
 }
 
+@media (max-width:614px) {
 
+  .menu,
+  .smaller-box-left {
+    width: 100%;
+  }
+
+  .stories-box {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 614px) {
+  .smaller-box-right {
+    display: none;
+  }
+}

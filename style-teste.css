@@ -8,7 +8,7 @@
     color: red;
 }
 
-.menu-search{
+.menu-search {
     margin-top: 13px;
     margin-left: 214px;
     border: 1px solid #DBDBDB;
@@ -24,6 +24,72 @@
     vertical-align: Center;
     background: #FAFAFA;
 }
+
 .input {
     border-style: none;
+}
+
+.col-6{
+    display: flex;
+}
+
+.stories-box {
+    margin-top: 34px;
+    margin-left: 215px;
+    width: 614px;
+    height: 118px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.fig {
+    margin-top: 34px;
+    margin-left: 215px;
+    width: 58px;
+    height: 58px;
+    border-radius: 28px;
+    display: flex;
+    overflow: hidden;
+}
+
+.fig-seta {
+    margin-top: 80px;
+    margin-left: 215px;
+    width: 58px;
+    height: 58px;
+    border-radius: 28px;
+    display: flex;
+    overflow: hidden;
+}
+
+.story-item-seta {
+    margin-top: 18px;
+
+
+    background-image: url(./assests/stories_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 68px 68px;
+
+}
+
+.story-item {
+    margin-top: 18px;
+
+
+    background-image: url(./assests/stories_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 68px 68px;
+}
+
+.vector {
+
+    background-color: #000000;
+    position: absolute;
+    top: 46px;
+    left: 579px;
 }
